@@ -1,0 +1,151 @@
+.divgf{
+    width: 105em;
+    height: 115px;
+    display: flex;
+    background-color: rgb(206, 59, 59);
+    justify-content: center;
+    margin-left: -40px;
+    flex-direction: row;
+}
+.divf1{
+    background-color: rgb(206, 59, 59);
+    width: 20em;
+    height: 50px;
+    
+}
+.divf2{
+    background-color: rgb(206, 59, 59);
+    width: 20em;
+    height: 50px;
+}
+.divf3{
+    background-color: rgb(206, 59, 59);
+    width: 20em;
+    height: 50px;
+}
+.divff{
+    background-color: rgb(8, 8, 8);
+    width: 105em;
+    height: 50px;
+    color: white;
+    padding-left: 35em;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-left: -2em;
+
+}
+a{
+    color: white;
+}
+a:hover{
+    color:black;
+}
+.foot{
+    color: rgb(182, 179, 179);
+}
+
+/* La reqponsive __________________________________*/
+
+/*-----------------------------------
+    Small devices (landscape phones, 576px and up)
+------------------------------------*/
+@media (min-width: 576px) {
+    .divgf{
+        width: 105em;
+        height: 115px;
+        
+        background-color: rgb(206, 59, 59);
+        justify-content: center;
+        margin-left: -40px;
+        Padding-left: -90px;
+    }
+    .divff{
+        background-color: rgb(8, 8, 8);
+        width: 105em;
+        height: 50px;
+        color: white;
+        padding-left: -3em;
+        padding-top: 10px;
+        margin-top: 3px;
+        margin-left: -2em;
+    
+    }
+
+}
+
+/*-----------------------------------
+    Medium devices (tablets, 768px and up)
+------------------------------------*/
+@media (min-width: 768px) {
+    .divgf{
+        width: 105em;
+        height: 115px;
+        
+        background-color: rgb(206, 59, 59);
+        justify-content: center;
+        margin-left: -40px;
+        Padding-left: -90px;
+    }
+    .divff{
+        background-color: rgb(8, 8, 8);
+        width: 105em;
+        height: 50px;
+        color: white;
+        padding-left: -3em;
+        padding-top: 10px;
+        margin-top: 3px;
+        margin-left: -2em;
+    
+    }
+
+}
+
+@media (min-width: 992px){
+    .divgf{
+        width: 105em;
+        height: 115px;
+        
+        background-color: rgb(206, 59, 59);
+        justify-content: center;
+        margin-left: -40px;
+        Padding-left: -90px;
+    }
+    .divff{
+        background-color: rgb(8, 8, 8);
+        width: 105em;
+        height: 50px;
+        color: white;
+        padding-left: -3em;
+        padding-top: 10px;
+        margin-top: 3px;
+        margin-left: -2em;
+    
+    }
+}
+
+/*-----------------------------------
+    Extra large devices (large desktops, 1200px and up)
+------------------------------------*/
+@media (min-width: 1200px) {
+    .divgf{
+        width: 105em;
+        height: 115px;
+      
+        background-color: rgb(206, 59, 59);
+        justify-content: center;
+        Padding-left: -90px;
+    }
+    .divff{
+        background-color: rgb(8, 8, 8);
+        width: 105em;
+        height: 50px;
+        color: white;
+        padding-left: -3em;
+        padding-top: 10px;
+        margin-top: 3px;
+        margin-left: -2em;
+    
+    }
+
+
+}
